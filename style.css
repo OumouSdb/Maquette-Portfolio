@@ -1,0 +1,248 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif; 
+    line-height: 1.5em;
+}
+.pre-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: #f2f5f7;
+}
+.pre-header a{
+    text-decoration: none;
+    margin-right: 5px;
+}
+.social-media{
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+b{
+    font-weight: bold;
+}
+nav{
+   width: 100%;
+   justify-content: space-around;
+   display: flex;
+   
+}
+nav ul{
+    width: 70%;
+    display: flex;
+   justify-content: space-around;
+   font-weight: bold;
+   padding-left: 0;
+
+}
+
+nav ul li{
+   list-style-type: none;
+   margin-top: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+h1, h2,h4,h6{
+    text-align: center;
+}
+.background h1{
+    font-size: 5em;
+    text-transform: uppercase;
+    color: white;
+    line-height: 2em;
+}
+.background{
+    background-image: url(./images/hero.jpg);
+    padding: 200px;
+    font-weight: bold;
+   
+}
+.background p{
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: #73879c;
+}
+.background a{
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    background: #00bc9c;
+    margin-left: 40%;
+    color: white;
+    font-weight: bold;
+   
+}
+h2 + p{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.block{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: auto;
+    text-align: left;
+    margin-top: 50px;
+}
+.block section div{
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+.block section p{
+    width: 90%;
+}
+.margin{
+    margin-top: 5.5%;
+}
+.layout{
+    background: #f2f5f7;
+    
+}
+.container{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: auto;
+}
+.container p{
+    text-align: center;
+}
+.border-p{
+    background: white;
+    padding: 10px;
+}
+.paragraphe{
+    text-align: center;
+}
+.cercle div{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-bottom: 100px;
+
+}
+.cercle{
+    display: flex;
+    width: 3%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+.green{
+    background: green;
+}
+.keepintouch a{
+    text-decoration: none;
+    padding: 20px;
+    background: #00bc9c;
+    color: white;
+    font-weight: bold;
+  margin-left: 45%;
+}
+.keepintouch p{
+    width: 47%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h6{
+    font-size: 1em;
+   
+}
+.miniImage{
+    width: 80%;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+}
+footer{
+    background: #506a85;
+    margin-top: 50px;
+
+}
+.divFooter{
+    color: #f2f5f7;
+    display: flex;
+    justify-content: space-between;
+width: 80%;
+margin: auto;
+line-height: 1.5em;
+}
+.divFooter i{
+  padding-right: 20px;
+}
+.divFooter a {
+    color: #f2f5f7;
+    font-weight: bold;
+    text-decoration: none;
+    float: right;
+}
+.divFooter div h6{
+
+    text-align: center;
+}
+footer div{
+    width: 25%;
+
+}
+
+.fourImage{
+
+width: 20%;
+  margin-left: 0.3%;
+}
+.fourImage img{
+    width: 49%;
+}
+form{
+    padding: 10px;
+    background-color:#73879c;
+    color: #73879c;
+    border-radius: 5px;
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+    padding:.25em;
+}
+form input:nth-child(1){
+    padding: 0 0 0 10px;
+    border-radius: 5px;
+    border: 0;
+    background: transparent;
+    width: 100%;
+    border: 0;
+   
+}
+input:nth-child(2){
+    background: #00bc9c;
+    padding: 10px;
+    font-size: .9em;
+    font-weight: bold;
+    border: 0;
+    color: white;
+    padding-left: 20px;
+}
+.navFooter{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: #283645;
+    padding: 20px;
+    color: #73879c;
+    font-weight: bold;
+
+}
+.navFooter a{
+    color: #73879c;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 1px solid black;
+    content: "\2022";
+}
+
